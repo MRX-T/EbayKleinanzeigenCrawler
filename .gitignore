@@ -1,0 +1,12 @@
+EbayKleinanzeigenCrawler/data/
+EbayKleinanzeigenCrawler/obj/
+EbayKleinanzeigenCrawler/bin/
+EbayKleinanzeigenCrawler/Properties/PublishProfiles/
+*/*.csproj.user
+.vs/
+.vscode/
+TestResults/
+.env
+**/Subscribers.json
+**/AlreadyProcessedUrls.json
+**/logfile.txt
