@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+    ebay-bot:
+        restart: always
+        build: .
+        
+        volumes:
+          - ebay-bot-volume:/bot/data
+
+        environment:
+            # This variable is taken from the environment. You can use .env-files for this.
+            TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN}
+
+volumes:
+    ebay-bot-volume:
