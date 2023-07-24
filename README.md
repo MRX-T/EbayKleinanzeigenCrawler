@@ -39,3 +39,4 @@
 * Run Remote-Containers: Reopen in Container (Rebuild and Reopen at the initial startup)
 * If you haven't setup the Telegram Token environment variable using a `.env`-file, enter `export TELEGRAM_BOT_TOKEN=<TOKEN>` into the console
 * Change directory into `EbayKleinanzeigenCrawler` and start the project with `dotnet run` or `dotnet run --watch`
+
